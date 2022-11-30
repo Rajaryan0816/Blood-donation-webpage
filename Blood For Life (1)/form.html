@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+
+</head>
+<body>
+     
+     <div class="card">
+
+        <h5 class="card-header danger-color white-text text-center py-4">
+            <strong>REQUEST APPOINTMENT</strong>
+        </h5>
+
+        <!--Card content-->
+        <div class="card-body px-lg-5 pt-0">
+
+            <!-- Form -->
+            <form class="text-center" style="color: #757575;" action="#!">
+
+                <div class="form-row">
+                    <div class="col">
+                        <!-- First name -->
+                        <div class="md-form">
+                            <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                            <label for="materialRegisterFormFirstName">First name</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Last name -->
+                        <div class="md-form">
+                            <input type="email" id="materialRegisterFormLastName" class="form-control">
+                            <label for="materialRegisterFormLastName">Last name</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col">
+                        <!-- Email -->
+                        <div class="md-form">
+                            <input type="email" id="materialRegisterFormEmail" class="form-control">
+                            <label for="materialRegisterFormEmail">E-mail</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Phone Number -->
+                        <div class="md-form">
+                            <input type="password" id="materialRegisterFormPhone" class="form-control"
+                                aria-describedby="materialRegisterFormPhoneHelpBlock">
+                            <label for="materialRegisterFormPhone">Phone number</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col">
+                        <!-- Date -->
+                        <div class="md-form">
+                            <input type="date" id="materialRegisterFormDate" class="form-control">
+                            <label for="materialRegisterFormEmail">Date</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Time -->
+                        <div class="md-form">
+                            <input type="time" id="materialRegisterFormTime" class="form-control"
+                                aria-describedby="materialRegisterFormPhoneHelpBlock">
+                            <label for="materialRegisterFormPhone">Time</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md-form">
+                    <textarea id="materialContactFormMessage" class="form-control md-textarea"
+                        rows="3"></textarea>
+                    <label for="materialContactFormMessage">Message</label>
+                </div>
+
+                <!-- Sign up button -->
+                <button class="btn btn-danger btn-rounded btn-block my-4 waves-effect z-depth-0"
+                    type="submit">GET APPOINTMENT</button>
+
+            </form>
+            <!-- Form -->
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
